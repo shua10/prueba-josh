@@ -11,4 +11,4 @@ df = pd.DataFrame({
     'Datos': [1, 2, 3, 4]
 })
 
-st.line_chart(df)
+st.line_chart(x='Fecha', y='Datos', data=df)
